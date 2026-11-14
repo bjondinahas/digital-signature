@@ -1,0 +1,17 @@
+OpenSSL 3.6.4 25 Aug 2026 (Library: OpenSSL 3.6.4 25 Aug 2026)
+
+T1 Origjinali + çelësi i duhur
+Verified OK
+exit=0
+
+T2 Dokumenti i ndryshuar
+C0E2AA0202000000:error:02000068:rsa routines:ossl_rsa_verify_PKCS1_PSS_mgf1:bad signature:crypto/rsa/rsa_pss.c:144:
+C0E2AA0202000000:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1106:
+Verification failure
+exit=1
+
+T3 Çelësi publik i gabuar
+C0E2AA0202000000:error:02000085:rsa routines:ossl_rsa_verify_PKCS1_PSS_mgf1:first octet invalid:crypto/rsa/rsa_pss.c:85:
+C0E2AA0202000000:error:1C880004:Provider routines:rsa_verify_directly:RSA lib:providers/implementations/signature/rsa_sig.c:1106:
+Verification failure
+exit=1

@@ -1,0 +1,10 @@
+Python 3.12.14 | cryptography 50.0.2
+RSA 2048 bit | e=65537 | SHA-256 | MGF1(SHA-256) | salt=32 bajte
+SHA-256 origjinal  fbce64b1e45fdc8eda5fc31e6580ba17455d1ef2817c0ce810088bd247cb237d
+SHA-256 ndryshuar  a9c7bdacf4fbbffe90590b73a52440854cc700d3d17deff5e10389a04f0e1463
+Gjatësia e nënshkrimit: 256 bajte
+T1 Origjinali + çelësi i duhur: pritur=True, marrë=True [PASS]
+T2 Dokumenti i ndryshuar: pritur=False, marrë=False [PASS]
+T3 Çelësi publik i gabuar: pritur=False, marrë=False [PASS]
+T4 Nënshkrimi i dëmtuar: pritur=False, marrë=False [PASS]
+Përmbledhje: 4/4 teste kaluan.
